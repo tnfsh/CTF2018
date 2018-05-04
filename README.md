@@ -5,27 +5,29 @@
 # sCTF 2016 Q1 : banana-boy-20
 
 解題步驟1:查看檔案格式
-
-file /root/Desktop/img.jpg
-
+ 
+ file carter.jpg
 
 解題步驟2:查看檔案內藏的字串
 
-strings /root/Desktop/img.jpg
+strings carter.jpg
 
-解題步驟3:安裝工具並學習使用技術
+解題步驟3:查看16進位
 
-google搜尋jpg metadata linux
->* http://xahlee.info/img/metadata_in_image_files.html
->* http://libre-software.net/edit-image-metadata-on-linux/
+xxd carter.jpg
+
+解題步驟4:binwalk工具
+
+binwalk carter.jpg
+
+解題步驟5:dd 工具
+
+dd if=carter.jpg of=carter-1.jpg skip=140147 bs=1
+
+解題步驟6:開啟拉出後的圖片
 
 
-sudo apt-get install exiftool
-
-
-解題步驟4:查看檔案並讀出答案
-
-
+=>解答 
 
 exiftool img.jpg
 
