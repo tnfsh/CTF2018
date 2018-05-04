@@ -2,8 +2,7 @@
 
 # Steg-1: STEG(必) 20
 
-# Steg-2
->*  CSAW QUALS 2015: keep-calm-and-ctf(必)50
+# sCTF 2016 Q1 : banana-boy-20
 
 解題步驟1:查看檔案格式
 
