@@ -6,7 +6,7 @@
 
 解題步驟1: 在Linux中開啟python
 
->>>python
+>python
 
 解題步驟2:依照題意算出解答
 
