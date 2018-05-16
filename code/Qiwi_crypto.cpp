@@ -93,7 +93,7 @@ int main()
             cout <<"Z";   
         }
         if((cry[i]=='A')&&(cry[i+1]=='T')&&(cry[i+2]=='A')){
-            cout <<" ";   
+            cout <<"_";   
         }
         if((cry[i]=='T')&&(cry[i+1]=='C')&&(cry[i+2]=='G')){
             cout <<",";   
