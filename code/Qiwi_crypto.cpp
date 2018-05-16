@@ -13,7 +13,7 @@ int main()
 {
     char cry[100];
     cin.get(cry,sizeof(cry));
-    for(int i = 0 ; i <=(strlen(cry)/3) ; i++){
+    for(int i = 0 ; i <=(strlen(cry)/3) ; i=i+3){
         if((cry[i]=='C')&&(cry[i+1]=='G')&&(cry[i+2]=='A')){
             cout <<"A";   
         }
