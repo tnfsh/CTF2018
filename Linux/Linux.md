@@ -7,7 +7,7 @@
 >ssh -p2200 lab@120.114.62.89<br>
 >ls (查看目前資料夾內的檔案)<br>
 >cat flag (打開flag)<br>
->
+>![image](CTF2018/Linux/pictures/linux(1).jpg)
 
 解答:
 
@@ -23,7 +23,8 @@
 解題步驟2:打開隱藏檔案
 
 >cat .hidden
->
+>![image](CTF2018/Linux/pictures/linux(2).jpg)
+>![image](CTF2018/Linux/pictures/linux(2(2)).jpg)
 
 解答:
 
@@ -44,7 +45,8 @@
 
 >xxd -r -p hex.txt
 >echo | xxd -r -p
->
+>![image](CTF2018/Linux/pictures/linux(3).jpg)
+>![image](CTF2018/Linux/pictures/linux(3(2)).jpg)
 
 解答:
 
@@ -65,7 +67,8 @@
 
 >base64 --decode base64.txt
 >echo | base64 --decode
->
+>![image](CTF2018/Linux/pictures/linux(4(1)).jpg)
+>![image](CTF2018/Linux/pictures/linux(4(2)).jpg)
 
 解答:
 
@@ -85,7 +88,8 @@
 解題步驟3:大部分為permission denied 但其中一個不是，打開./opt/secret
 
 >cat ./opt/secret
->
+>![image](CTF2018/Linux/pictures/linux(5(1)).jpg)
+>![image](CTF2018/Linux/pictures/linux(5(2)).jpg)
 
 解答:
 
