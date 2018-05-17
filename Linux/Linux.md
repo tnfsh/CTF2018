@@ -7,7 +7,7 @@
 >ssh -p2200 lab@120.114.62.89<br>
 >ls (查看目前資料夾內的檔案)<br>
 >cat flag (打開flag)<br>
->![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(1).pngg)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(1).png)
 
 解答:
 
