@@ -23,8 +23,7 @@
 解題步驟2:打開隱藏檔案
 
 >cat .hidden
->![image](CTF2018/Linux/pictures/linuxctf(2).png)
->![image](CTF2018/Linux/pictures/linuxctf(2(2)).jpg)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(2).png)
 
 解答:
 
@@ -45,8 +44,8 @@
 
 >xxd -r -p hex.txt
 >echo | xxd -r -p
->![image](CTF2018/Linux/pictures/linuxctf(3).jpg)
->![image](CTF2018/Linux/pictures/linuxctf(3(2)).jpg)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(3).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(3(2)).png)
 
 解答:
 
@@ -67,8 +66,8 @@
 
 >base64 --decode base64.txt
 >echo | base64 --decode
->![image](CTF2018/Linux/pictures/linuxctf(4(1)).jpg)
->![image](CTF2018/Linux/pictures/linuxctf(4(2)).jpg)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(4(1)).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(4(2)).png)
 
 解答:
 
@@ -88,8 +87,8 @@
 解題步驟3:大部分為permission denied 但其中一個不是，打開./opt/secret
 
 >cat ./opt/secret
->![image](CTF2018/Linux/pictures/linuxctf(5(1)).jpg)
->![image](CTF2018/Linux/pictures/linuxctf(5(2)).jpg)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(5(1)).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Linux/pictures/linuxctf(5(2)).png)
 
 解答:
 
