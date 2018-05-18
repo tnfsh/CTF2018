@@ -11,7 +11,7 @@
 
 解答:
 
->
+>BreakALLCTF{Sobkjgd14VuIFBUtgVts}
 
 
 ## Linux CTF 2
@@ -27,7 +27,7 @@
 
 解答:
 
->
+>BreakALLCTF{WucLSg4cxPNYuXFF5XxJ}
 
 
 ## Linux CTF 3
@@ -49,7 +49,7 @@
 
 解答:
 
->
+>BreakALLCTF{GIUWO1rpMhJCJpACvVwr}
 
 
 ## LinuxCTF 4
@@ -71,7 +71,7 @@
 
 解答:
 
->
+>BreakALLCTF{XvXeVX5Ae9FwnYmDV2jU}
 
 
 ## LinuxCTF 5
@@ -92,10 +92,32 @@
 
 解答:
 
->
+>BreakALLCTF{TPLGKbWxmutGtecSSpo1}
+
+
+
+## LinuxCTF 6
+
+>BreakALLCTF{YUA7D5D0k4elbQ1XqH14}
 
 ## LinuxCTF 7
 
 解答:
     
 >BreakALLCTF{Ef94iSQPRI66Ws4ECqV9}
+
+
+
+## LinuxCTF 8
+
+>BreakALLCTF{U6TLCzQsk73HwcW7rqAW}
+
+
+## LinuxCTF 9
+
+>BreakALLCTF{UvB3IUqxCCiTVxeOuWrL}
+
+
+## LinuxCTF 10
+
+>BreakALLCTF{VLJekKONoWld7ari6HHJ}
