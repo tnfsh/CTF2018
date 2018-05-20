@@ -1,0 +1,54 @@
+# Reverse
+
+##　Reverse
+
+解題方法1:下載後使用記事本查看
+
+>
+
+解題方法2:
+        解題步驟1:查看檔案格式
+        
+>file reverese
+        
+        解題步驟2:reverse為32位員執行檔，使用strings工具查看內容
+
+>strings reverse
+        
+解答:
+
+>BreakALLCTF{4U49uY7OJCrJL0vtbXjd}
+
+
+## alexctf-2017: RE1: Gifted
+
+解題方法1:下載後使用記事本查看
+
+>
+
+解題方法2:
+        解題步驟1:查看檔案格式
+        
+>file gifted
+        
+        解題步驟2:reverse為32位員執行檔，使用strings工具查看內容
+
+>strings gifted
+        
+解答:
+
+>AlexCTF{Y0u_h4v3_45t0n15h1ng_futur3_1n_r3v3r5ing}
+
+
+## HITCON CTF 2016 : welcome
+
+解題方法1:直解倒著拼回來
+
+>hitcon{Welcome to HITCON CTF}
+
+解題方法2:
+
+>
+
+
+
