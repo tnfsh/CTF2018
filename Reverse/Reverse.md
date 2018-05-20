@@ -35,10 +35,10 @@
         
 >file gifted
         
-        解題步驟2:reverse為32位員執行檔，使用strings工具查看內容
+        解題步驟2:reverse為32位元執行檔，使用strings工具查看內容
 
 >strings gifted
->![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/alexctf%202017%20RE1%20Gifted(2).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/alexctf%202017%20RE1Gifted(2).png)
 
 解答:
 
