@@ -62,4 +62,65 @@
 >hitcon{Welcome to HITCON CTF}
 
 
+## Java! Java!
 
+解題方法1:暴力破解
+        
+        解題步驟1:下載後先解壓縮
+        
+>unzip tmpBPWe7T.zip
+        
+        解題步驟2:檢視檔案格式
+        
+>file Authenticator.class
+        
+        解題步驟3:發現為java執行檔==>使用strings工具
+        
+>strings Authenticator.class
+        
+        解題步驟4:發現password==>執行Authenticator
+        
+>java Authenticator
+        
+        解題步驟5:輸入passowrd後得到解答
+
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/java(1).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/java(2).png)
+
+解題方法2:使用jad反編譯工具
+
+        解題步驟1:下載後先解壓縮
+        
+>unzip tmpBPWe7T.zip
+        
+        解題步驟2:檢視檔案格式
+        
+>file Authenticator.class
+        
+        解題步驟3:發現為java執行檔==>使用jad反編譯工具
+        
+>jad Authenticator.class
+        
+        解題步驟4:檢視Authenticator.jad檔案格式
+        
+>file Authenticator.jad
+        
+        解題步驟5:發現為C++且為ASCII格式==>開啟檢視檔案
+        
+>nano/gedit/vim Authenticator.jad
+>cat Authenticator.jad
+        
+        解題步驟6:發現password(ThisIsth3mag1calString4458)和解答<br>
+        ==>執行Authenticator並輸入passwotd或直接輸入解答
+        
+>java Authenticator
+        
+        解題步驟7:輸入password並得到解答
+        
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/java(3).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/java(4).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/java(5).png)
+
+解答:
+        
+>AoJkVhLwUR
