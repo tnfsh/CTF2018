@@ -14,7 +14,7 @@
         
         解題步驟2:reverse為32位員執行檔，使用strings工具查看內容
 
->strings reverse
+>strings reverse<br>
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/reverse(2).png)
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/reverse(3).png)
 
@@ -55,7 +55,7 @@
 
 >https://github.com/saho-yu/CTF2018/blob/master/Reverse/welcome.cpp
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/welcome(1).png)
->![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/welcome(1).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/welcome(2).png)
 
 解答:
 
