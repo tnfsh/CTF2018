@@ -37,7 +37,7 @@
         
         解題步驟2:reverse為32位元執行檔，使用strings工具查看內容
 
->strings gifted
+>strings gifted<br>
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/alexctf%202017%20RE1Gifted(2).png)
 
 解答:
