@@ -15,7 +15,7 @@
 
 解題步驟1:在網址後方打上/robots.txt
 
->https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(1).png
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(1).png)
 
 解題步驟2:按下Enter後，出現文字<br>
 User-agent: *
@@ -23,12 +23,12 @@ Disallow: /images
 Disallow: /secret
 ==>在網址後方打上/secret
 
->https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(2).png
->https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(3).png
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(2).png)
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(3).png)
 
 解題步驟3:點下flag.txt
 
->https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(4).png
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(4).png)
 
 解題步驟4:hex to string
 
@@ -37,7 +37,7 @@ Disallow: /secret
 解題步驟5:base64 decode
 
 >echo QnJlYWtBTExDVEZ7N1F0S0IyTjVUbHFBQUV6Q3J6Tk99 | base64 --decode
->https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(5).png
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(5).png)
 
 解答:
 
