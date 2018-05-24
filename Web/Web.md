@@ -4,7 +4,7 @@
 
 解題步驟1:按下鍵盤F12/滑鼠右鍵=>檢查
 
->
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-1.png)
 
 解答:
 
@@ -15,7 +15,7 @@
 
 解題步驟1:在網址後方打上/robots.txt
 
->
+>https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(1).png
 
 解題步驟2:按下Enter後，出現文字<br>
 User-agent: *
@@ -23,11 +23,12 @@ Disallow: /images
 Disallow: /secret
 ==>在網址後方打上/secret
 
->
+>https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(2).png
+>https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(3).png
 
 解題步驟3:點下flag.txt
 
->
+>https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(4).png
 
 解題步驟4:hex to string
 
@@ -36,6 +37,7 @@ Disallow: /secret
 解題步驟5:base64 decode
 
 >echo QnJlYWtBTExDVEZ7N1F0S0IyTjVUbHFBQUV6Q3J6Tk99 | base64 --decode
+>https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(5).png
 
 解答:
 
@@ -50,12 +52,13 @@ Disallow: /secret
 
 解題步驟1:在'GO!'圖示上按下滑鼠右鍵檢查
 
->
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-3(1).png)
 
 解題步驟2:發現網頁將引導至index.php
 ==>使用curl工具
 
 >curl http://120.114.62.89:2014/index.php
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-3(2).png)
 
 解答:
 
