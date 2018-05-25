@@ -57,7 +57,8 @@ Disallow: /secret
 解題步驟2:發現網頁index.php
 ==>使用curl工具
 
->curl http://120.114.62.89:2014/index.php
+>curl http://120.114.62.89:2014/index.php<br>
+>curl -x Get -v http://120.114.62.89:2014/index.php<br>
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-3(2).png)
 
 解答:
