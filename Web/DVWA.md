@@ -2,8 +2,7 @@
 
 ## commend injection -Low
 
-...
-
+```
 <?php
 
 if( isset( $_POST[ 'Submit' ]  ) ) {
@@ -62,11 +61,11 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 }
 
 ?>
-...
+```
 
 ## commend injection -High
 
-...
+```
 <?php
 
 if( isset( $_POST[ 'Submit' ]  ) ) {
@@ -105,11 +104,11 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 
 ?>
 
-...
+```
 
 ## commend injection -Impossible
 
-...
+```
 <?php
 
 if( isset( $_POST[ 'Submit' ]  ) ) {
@@ -151,4 +150,4 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 generateSessionToken();
 
 ?>
-...
+```
