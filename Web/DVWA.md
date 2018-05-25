@@ -24,13 +24,13 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 }
 
 ?>
-...
+```
 
 >127.0.0.1 ; cat /etc/passwd
 
 ## commend injection -Medium
 
-...
+```
 <?php
 
 if( isset( $_POST[ 'Submit' ]  ) ) {
