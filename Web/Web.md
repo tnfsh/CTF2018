@@ -54,7 +54,7 @@ Disallow: /secret
 
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-3(1).png)
 
-解題步驟2:發現網頁將引導至index.php
+解題步驟2:發現網頁index.php
 ==>使用curl工具
 
 >curl http://120.114.62.89:2014/index.php
