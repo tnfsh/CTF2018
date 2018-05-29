@@ -187,7 +187,8 @@ BreakALLCTF{fzfaD1jdXyQAMWvRShGC}
 
 解答:
 
->BreakALLCTF{fzfaD1jdXyQAMWvRShGC}
+>BreakALLCTF{fzfaD1jdXyQAMWvRShGC}<br>
+>![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web%20-4.png)
 
 HTTP狀態碼:
 >https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
