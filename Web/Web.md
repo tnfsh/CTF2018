@@ -66,6 +66,138 @@ Disallow: /secret
 >BreakALLCTF{91YODwgPD58gpC4H9AeD}
 
 
+## web-4:HTTP method
+
+解題步驟1:使用curl工具<br>
+==>curl -X GET,POST,OPTIONS,HEAD -v http://120.114.62.89:3001/index.php
+
+curl -X GET -v http://120.114.62.89:3001/index.php
+```
+*   Trying 120.114.62.89...
+* Connected to 120.114.62.89 (120.114.62.89) port 3001 (#0)
+> GET /index.php HTTP/1.1
+> Host: 120.114.62.89:3001
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 501 Not Implemented
+< Date: Tue, 29 May 2018 16:35:06 GMT
+< Server: Apache/2.4.7 (Ubuntu)
+< X-Powered-By: PHP/5.5.9-1ubuntu4.22
+< Content-Length: 199
+< Connection: close
+< Content-Type: text/html
+< 
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>501 Not Implemented</title>
+</head><body>
+<h1>Not Implemented</h1>
+<p>GET to /index.php not supported.<br />
+</p>
+* Closing connection 0
+</body></html>
+```
+curl -X POST -v http://120.114.62.89:3001/index.php
+```
+*   Trying 120.114.62.89...
+* Connected to 120.114.62.89 (120.114.62.89) port 3001 (#0)
+> POST /index.php HTTP/1.1
+> Host: 120.114.62.89:3001
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 501 Not Implemented
+< Date: Tue, 29 May 2018 16:40:40 GMT
+< Server: Apache/2.4.7 (Ubuntu)
+< X-Powered-By: PHP/5.5.9-1ubuntu4.22
+< Content-Length: 200
+< Connection: close
+< Content-Type: text/html
+< 
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>501 Not Implemented</title>
+</head><body>
+<h1>Not Implemented</h1>
+<p>POST to /index.php not supported.<br />
+</p>
+* Closing connection 0
+</body></html>
+```
+curl -X HEAD -v http://120.114.62.89:3001/index.php
+```
+*   Trying 120.114.62.89...
+* Connected to 120.114.62.89 (120.114.62.89) port 3001 (#0)
+> HEAD /index.php HTTP/1.1
+> Host: 120.114.62.89:3001
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 501 Not Implemented
+< Date: Tue, 29 May 2018 16:40:57 GMT
+< Server: Apache/2.4.7 (Ubuntu)
+< X-Powered-By: PHP/5.5.9-1ubuntu4.22
+< Connection: close
+< Content-Type: text/html
+< 
+* Closing connection 0
+```
+curl -X OPTIONS -v http://120.114.62.89:3001/index.php
+```
+*   Trying 120.114.62.89...
+* Connected to 120.114.62.89 (120.114.62.89) port 3001 (#0)
+> OPTIONS /index.php HTTP/1.1
+> Host: 120.114.62.89:3001
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Date: Tue, 29 May 2018 16:41:17 GMT
+< Server: Apache/2.4.7 (Ubuntu)
+< X-Powered-By: PHP/5.5.9-1ubuntu4.22
+< Allow: GETFLAG,OPTIONS
+< Content-Length: 0
+< Content-Type: text/html
+< 
+* Connection #0 to host 120.114.62.89 left intact
+```
+
+解題步驟2:發現可使用GETFLAG
+
+curl -X GETFLAG -v http://120.114.62.89:3001/index.php
+```
+*   Trying 120.114.62.89...
+* Connected to 120.114.62.89 (120.114.62.89) port 3001 (#0)
+> GETFLAG /index.php HTTP/1.1
+> Host: 120.114.62.89:3001
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Date: Tue, 29 May 2018 16:41:33 GMT
+< Server: Apache/2.4.7 (Ubuntu)
+< X-Powered-By: PHP/5.5.9-1ubuntu4.22
+< Content-Length: 33
+< Content-Type: text/html
+< 
+* Connection #0 to host 120.114.62.89 left intact
+BreakALLCTF{fzfaD1jdXyQAMWvRShGC}
+```
+
+解答:
+
+>BreakALLCTF{fzfaD1jdXyQAMWvRShGC}
+
+HTTP狀態碼:
+>https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+```
+200 OK
+請求已成功，請求所希望的回應頭或資料體將隨此回應返回。實際的回應將取決於所使用的請求方法。在GET請求中，回應將包含與請求的資源相對應的實體。在POST請求中，回應將包含描述或操作結果的實體。
+501 Not Implemented
+伺服器不支援當前請求所需要的某個功能。當伺服器無法識別請求的方法，並且無法支援其對任何資源的請求。
+```
+
 ## web-5:Local File Inclusion
 
 解題步驟1:從最底層的資料夾找起
