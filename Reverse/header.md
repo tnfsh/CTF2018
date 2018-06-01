@@ -36,7 +36,7 @@ fenv.h            mntent.h        rdma        termio.h       zconf.h
 fmtmsg.h          monetary.h      re_comp.h   termios.h      zlib.h
 ```
 
-![header(1)](/CTF2018/Reverse/pictures/header(1).png)
+![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/header(1).png)
 
 以C語言的stdio.h為例<br>
 且stdio.h為唯獨檔(Read Only)
