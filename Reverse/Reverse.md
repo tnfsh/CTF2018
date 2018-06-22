@@ -8,11 +8,11 @@
 
 解題方法2:
         
-        解題步驟1:查看檔案格式
+解題步驟1:查看檔案格式
         
 >file reverese
         
-        解題步驟2:reverse為32位員執行檔，使用strings工具查看內容
+解題步驟2:reverse為32位員執行檔，使用strings工具查看內容
 
 >strings reverse<br>
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Reverse/pictures/reverse(2).png)
