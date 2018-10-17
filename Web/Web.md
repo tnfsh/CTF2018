@@ -6,7 +6,7 @@
 
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-1.png)
 
-解答:
+Flag:
 
 >BreakALLCTF{3xjVYR8dMetWQbwzYsLJ}
 
@@ -39,7 +39,7 @@ Disallow: /secret
 >echo QnJlYWtBTExDVEZ7N1F0S0IyTjVUbHFBQUV6Q3J6Tk99 | base64 --decode
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-2(5).png)
 
-解答:
+Flag:
 
 >BreakALLCTF{7QtKB2N5TlqAAEzCrzNO}
 
@@ -61,7 +61,7 @@ Disallow: /secret
 >curl -x Get -v http://120.114.62.89:2014/index.php<br>
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web-3(2).png)
 
-解答:
+Flag:
 
 >BreakALLCTF{91YODwgPD58gpC4H9AeD}
 
@@ -185,7 +185,7 @@ curl -X GETFLAG -v http://120.114.62.89:3001/index.php
 BreakALLCTF{fzfaD1jdXyQAMWvRShGC}
 ```
 
-解答:
+Flag:
 
 >BreakALLCTF{fzfaD1jdXyQAMWvRShGC}<br>
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web%20-4.png)
@@ -214,6 +214,6 @@ HTTP狀態碼:
 >http://120.114.62.89:2003/index.php?page=../../../../flag
 >![image](https://github.com/saho-yu/CTF2018/blob/master/Web/pictures/web%20-5.png)
 
-解答:
+Flag:
 
 >BreakALLCTF{887cs9oKULT0lvtY2bVu} 
